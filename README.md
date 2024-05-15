@@ -9,7 +9,9 @@ This is a simple web application for managing your daily tasks. You can add new 
 - Delete individual tasks: Click the "Delete" button next to a task to remove it from the list.
 - Delete all tasks: Click the "Delete All" button to remove all tasks from the list at once.
 
-<img src="https://drive.google.com/drive/folders/1oWYYkIxB7NBagwjwou9TcQVmAcvgulJa">
+<br>
+<img src="2024-05-15 15_51_23-To-Do List - Brave.png">
+<br>
 
 ## Technologies Used
 
