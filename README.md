@@ -28,6 +28,4 @@ This is a simple web application for managing your daily tasks. You can add new 
 5. Click the "Delete" buttons to remove individual tasks.
 6. Click the "Delete All" button to remove all tasks at once.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
