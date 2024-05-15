@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+
+}
+
+#imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#addTaskBtn, #deleteAllBtn {
+    margin-top: 10px; /* Añade un margen superior para separar los botones */
+    align-items: center;
+    margin-left: 58px;
+}
+
+#deleteAllBtn {
+    margin-left: 1px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    align-items: center;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 70px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Añade un margen izquierdo para separar el botón */
+    text-decoration: none;
+}
+
+.delete-btn.disabled {
+    background-color: #ccc; /* Cambia el color del botón cuando está desactivado */
+}
+
+
+li {
+    display: flex; /* Usa display:flex para permitir un mejor control del diseño */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-left: -10px; /* Ajusta el margen izquierdo del checkbox */
+    text-decoration: none;
+}
